@@ -3,6 +3,7 @@
 #include <map>
 #include <Windows.h>
 #include <vector>
+#include <string>
 
 
 class Player;
@@ -27,6 +28,10 @@ private:
 	void ChangeArtifactDisplay();
 
 	void PatchRegionLock();
+
+	void VanillaRideFix();
+
+	void VanillaGliderFix();
 
 public:
 	static Main& GetInstance();
